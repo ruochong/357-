@@ -1,0 +1,67 @@
+
+Skip to content
+This repository
+
+    Pull requests
+    Issues
+    Marketplace
+    Gist
+
+    @ruochong
+
+0
+0
+
+    0
+
+ruochong/pos_v1
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Settings
+pos_v1/pos_v0.1/测试
+e9ac10d 7 minutes ago
+@ruochong ruochong Create 测试
+36 lines (34 sloc) 1.62 KB
+'use strict'
+describe('fizzBuzzWhizz',()=>{
+  it('when number is times of 3,should return true,()=>{
+    let num=3;
+    //let iteam={};
+    const actualRecult=fizzBuzzWhizz(num);
+    let expectedRecult=iteam{numb:3,include3:true};
+    expect(actualRecult).toEqual(expectedRecult);
+  });
+  it('when iteam{numb:15,include3:false},should return iteam{numb:15,include3:false,times3:true}',()=>{
+    let iteam={numb:15,include3:false};
+    const actualRecult=getTimes3(iteam);
+    let expectedRecult= {numb:15,include3:false,times3:true};
+    expect(actualRecult).toEqual(expectedRecult);
+  });
+  it('when iteam{numb:20,include3:false,times3:false}  return iteam{numb:20,include3:false,times3:false,times5:true}',()=>{
+    let iteam={numb:20,include3:false,times3:false};
+    const actualRecult=getTimes5(iteam);
+    let expectedRecult={numb:20,include3:false,times3:false,times5:true};
+    expect(actualRecult).toEqual(expectedRecult);
+  });
+  it('when iteam{numb:14,include3:false,times3:false,times5:false},should return iteam{numb:20,include3:false,times3:false,times5:false,times7:true}',()=>{
+    let iteam={numb:14,include3:false,times3:false,times5:false};
+    const actualRecult=getTImes7(iteam);
+    let expectedRecult={numb:20,include3:false, times3:false,times5:false,times7:true};
+    expect(actualRecult).toEqual(expectedRecult);
+  });
+  it('when iteam{numb:20,include3:false,times3:false,times7:false,times5:true},should return buzz',()=>{
+    let iteam{numb:20,include3:false,times3:false,times7:false,times5:true};
+    const actualRecult=print(iteam);
+    let expectedRecult='buzz';
+    expect(actualRecult).toEqual(expectedRecult);
+  });
+
+})
+
+    Contact GitHub API Training Shop Blog About 
+
+    © 2017 GitHub, Inc. Terms Privacy Security Status Help 
+
