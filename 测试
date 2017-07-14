@@ -1,30 +1,4 @@
 
-Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Marketplace
-    Gist
-
-    @ruochong
-
-0
-0
-
-    0
-
-ruochong/pos_v1
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Settings
-pos_v1/pos_v0.1/测试
-e9ac10d 7 minutes ago
-@ruochong ruochong Create 测试
-36 lines (34 sloc) 1.62 KB
 'use strict'
 describe('fizzBuzzWhizz',()=>{
   it('when number is times of 3,should return true,()=>{
